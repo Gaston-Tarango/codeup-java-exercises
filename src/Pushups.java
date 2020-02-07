@@ -21,8 +21,8 @@ public class Pushups {
 //        }
 //        return product;
 
-        ArrayList<String> fruits = new ArrayList<String>();
-        String fruits[] = ("apple", "pear", "banana", "mango", "kiwi", "orange");
+//        ArrayList<String> fruits = new ArrayList<String>();
+//        String fruits[] = ("apple", "pear", "banana", "mango", "kiwi", "orange");
 
 
 

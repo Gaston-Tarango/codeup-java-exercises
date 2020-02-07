@@ -29,6 +29,8 @@ public class Student {
         } return sum / this.grades.size();
     }
 
+
+
     public void setGrades(ArrayList<Double> grades) {
         this.grades = grades;
     }

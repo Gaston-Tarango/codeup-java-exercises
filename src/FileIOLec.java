@@ -36,17 +36,24 @@ public class FileIOLec {
         }
     }
 
-    //        static void writeFile(){
-//            List<String> fruit = new ArrayList<>();
-//            fruit.add("banana");fruit.add("orange");fruit.add("peach");fruit.add("pineapple");
-//
-//            try {
-//                Path groceries = Paths.get("data","groceries.txt");
-//                Files.write(groceries, fruit);
-//            } catch (IOException ioe){
-//                ioe.printStackTrace();
-//            }
-//        }
+
+
+            static void writeFile(){
+            List<String> fruit = new ArrayList<>();
+            fruit.add("banana");fruit.add("orange");fruit.add("peach");fruit.add("pineapple");
+
+            try {
+                Path groceries = Paths.get("data","groceries.txt");
+                Files.write(groceries, fruit);
+            } catch (IOException ioe){
+                ioe.printStackTrace();
+            }
+        }
+
+
+
+
+
     static void readWriteFile() {
         List<String> fruit = null;
         try {

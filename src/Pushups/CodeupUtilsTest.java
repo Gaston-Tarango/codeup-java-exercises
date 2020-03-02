@@ -18,11 +18,10 @@ public class CodeupUtilsTest {
         intList.add(5);
     }
 
-    @Test
-    public void testFindAddends () {
-        ArrayList<IndexPair> resultLists;
-        resultList = Pushups.findAddends(intList, 5);
-        IndexPair ip = new IndexPair(0, 3);
-        AssertTrue(resultList.contains(ip));
+//    @Test
+//    public void testFindAddends () {
+//        ArrayList<IndexPair> resultLists;
+//        resultList = Pushups.findAddends(intList, 5);
+//        IndexPair ip = new IndexPair(0, 3);
+//        AssertTrue(resultList.contains(ip));
     }
-}
